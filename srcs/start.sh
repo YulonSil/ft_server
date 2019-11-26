@@ -1,3 +1,4 @@
-service mysql start
-service nginx start
-while true; do sleep 100; done
+service nginx restart
+service mysql restart
+service php7.3-fpm start
+tail -f /dev/null
